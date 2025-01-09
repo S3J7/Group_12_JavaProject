@@ -8,10 +8,4 @@ public class Question_1 {
      identify(5); ->"Odd"
      identify(6); ->"Even"
      */
-public static String identify(int num){
-    if(num%2==0){
-        return "even";
-    }
-    return "odd";
-}
 }
