@@ -5,7 +5,7 @@ public class Answer1 {
     public static void main(String[] args) {
 
 
-        String s = identify (37);
+        String s = identify (39);
         System.out.println("String s = " + s);
         String s1  = identify(6);
         System.out.println("String s1  = " + s1);
