@@ -2,7 +2,7 @@ package hayden;
 
 import java.util.Scanner;
 
-public class Question_1 {
+public class Question_01 {
 
     /**
      Write  a method which can identify given number is even or odd
