@@ -14,6 +14,7 @@ identify(6); ->"Even"
 
     }
 
+
     public static void identify(int num){
         if (num % 2 == 0 ){
             System.out.println("even");
