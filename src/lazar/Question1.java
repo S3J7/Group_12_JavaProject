@@ -3,10 +3,10 @@ package lazar;
 public class Question1 {
     public static void main(String[] args) {
 
-        String x = identify(10);
-        System.out.println("x= " + x);
-        String y = identify(5);
-        System.out.println("y= " + y);
+        String a = identify(10);
+        System.out.println("x= " + a);
+        String b = identify(5);
+        System.out.println("y= " + b);
     }
 
 

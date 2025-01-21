@@ -19,7 +19,7 @@ public class Question2 {
             } else if (i % 3 == 0) {
                 System.out.println(i + " FIN");
             } else {
-                System.out.println(i + " NOT MULTIPLE BY 3 OR 5 ");
+                System.out.println(i + " NOT MULTIPLE BY 3 OR 5! ");
             }
         }
     }
