@@ -11,7 +11,7 @@ public class Answer2 {
          For numbers which are a multiple of both 3 and 5,
          print "FINRA" instead of the number.
          */
-        //
+        //.
 
         for (int i = 1; i <= 30; i++) {
 
