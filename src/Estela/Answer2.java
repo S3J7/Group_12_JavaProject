@@ -29,7 +29,7 @@ public class Answer2 {
             } else {
                 result = " " + i;
             }
-            System.out.print(result + " ");
+            System.out.println(result + " ");
         }
     }
 }
