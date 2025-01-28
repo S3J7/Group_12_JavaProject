@@ -25,5 +25,5 @@ public class Answer2 {
                     }
                 }
             }
-        //Question2
+
     }
