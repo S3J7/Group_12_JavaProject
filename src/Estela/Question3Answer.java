@@ -2,7 +2,6 @@ package Estela;
 
 public class Question3Answer {
     public static void main(String[] args) {
-
         //Swap two variables' values without using a third variable
 
 
