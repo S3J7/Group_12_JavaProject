@@ -4,7 +4,6 @@ public class swap {
 
     public static void main(String[] args) {
         Swp(1,6);
-
     }
     public  static  void Swp(int a , int b){
         a=a+b;
