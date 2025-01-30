@@ -12,7 +12,6 @@ public class Question3Answer {
     a = a + b;//a becomes 24(4 + 20)
     b = a - b;//b becomes 4(24-20)
     a = a - b;//a becomes 20(24-4)
-
         System.out.println(" Variables after Swap: a = " + a + ", b = " + b);
 }
 }
