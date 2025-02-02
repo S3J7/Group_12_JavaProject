@@ -23,7 +23,7 @@ public class Question4 {
 
             if ( num >= 0 ) {
                 return "";
-            } else if ( num < 0 ) {
+            } else {
                 reversedNum = reversedNum * 10 + num % 10;
                 // ^^^ Adds last digit of num to reversedNum
                 num /= 10; // Removes the last digit from num
