@@ -14,7 +14,7 @@ public class Question5Answer {
     public static void main(String[] args) {
 
         System.out.println("FrequencyOfChars(\"AAABBCDD\") = " + FrequencyOfChars("AAABBCDD"));
-        System.out.println("FrequencyOfChars(\"MMDHHBBC\") = " + FrequencyOfChars("MMDHHBBC"));
+        System.out.println("FrequencyOfChars(\"MMDHHBBC\") = " + FrequencyOfChars("MMDHHBBCNN"));
     }
     public static String FrequencyOfChars(String str) {
         String nonDuplicate = "";
