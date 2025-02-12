@@ -3,7 +3,7 @@ package Estela;
 
 public class Answer1 {
     public static void main(String[] args) {
-
+//
 
         String s = identify (33);
         System.out.println("String s = " + s);
@@ -22,11 +22,6 @@ public class Answer1 {
         }
 
     }
-
-
-
-
-
     /**
      Write  a method which can identify given number is even or odd
      Output ex:
