@@ -2,37 +2,35 @@ package siriwarin;
 
 public class Question4 {
 
-    /**
-     Write a return method that can reverse negative number and return it as int
+    /*
+    Reverse Negative Number
+
+Write a return method that can reverse digits of a negative number and return it as int
+input: -35  output: -53
      */
-    public static String frequencyOfChars(String str) {
-        String result = "";
+    public static int reverseNegativeNumber(int num) {
 
+        if (num < 0) {
+            num = -num;
+            int reversed = 0;
 
-        while (str.length() > 0) {
-            char currentChar = str.charAt(0);
-            int count = 0;
-
-
-            for (int i = 0; i < str.length(); i++) {
-                if (str.charAt(i) == currentChar) {
-                    count++;
-                }
+            while (num > 0) {
+                reversed = reversed * 10 + num % 10;
+                num /= 10;
             }
 
-            result += currentChar + Integer.toString(count);
-
-            str = str.replaceAll(String.valueOf(currentChar), "");
+            return -reversed;
         }
-
-        return result;
+        return num;
     }
 
     public static void main(String[] args) {
-        String input = "AAABBCDD";
-        String output = frequencyOfChars(input);
-        System.out.println("output = " + output);
-    }
 
+        int number = -48;
+
+        int result = reverseNegativeNumber(number);
+
+        System.out.println("Reversed Number: " + result);
+    }
 
 }
