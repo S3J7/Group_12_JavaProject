@@ -21,6 +21,9 @@ public class Question7Answer {
 
         public static void main(String[] args) {
             System.out.println(unique("AAABBBCCCDEF"));
+            System.out.println(unique("BBBRRRREEEEEFRTM"));
+
+
         }
     }
 
